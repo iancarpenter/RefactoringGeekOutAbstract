@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountBase.cs" />
+    <Compile Include="GoldAccount.cs" />
+    <Compile Include="PlatinumAccount.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SilverAccount.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
